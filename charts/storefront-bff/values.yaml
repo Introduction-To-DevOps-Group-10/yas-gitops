@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-storefront-bff
+    repository: phucnotphuc/yas-storefront-bff
     tag: latest
 
   nameOverride: storefront-bff

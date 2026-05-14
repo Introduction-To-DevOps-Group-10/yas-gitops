@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-rating
+    repository: phucnotphuc/yas-rating
     tag: latest
 
   nameOverride: rating

@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-cart
+    repository: phucnotphuc/yas-cart
     tag: v1.0.9
   ingress:
     enabled: true

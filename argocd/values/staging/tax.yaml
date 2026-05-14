@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-tax
+    repository: phucnotphuc/yas-tax
     tag: v1.0.9
   ingress:
     enabled: true

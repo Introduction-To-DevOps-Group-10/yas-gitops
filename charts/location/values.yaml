@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-location
+    repository: phucnotphuc/yas-location
     tag: latest
 
   nameOverride: location

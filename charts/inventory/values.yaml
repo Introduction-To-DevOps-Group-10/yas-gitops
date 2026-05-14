@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-inventory
+    repository: phucnotphuc/yas-inventory
     tag: latest
 
   nameOverride: inventory

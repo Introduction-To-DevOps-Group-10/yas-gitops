@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-payment-paypal
+    repository: phucnotphuc/yas-payment-paypal
     tag: latest
 
   nameOverride: payment-paypal

@@ -2,9 +2,10 @@ backend:
   image:
     repository: phucnotphuc/yas-promotion
     tag: latest
-
-  nameOverride: promotion
-  fullnameOverride: promotion
-  databaseName: promotion
   ingress:
+    enabled: true
+    host: api-dev.yas.local.com
+    path: /promotion
+  serviceMonitor:
     enabled: false
+

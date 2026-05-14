@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-product
+    repository: phucnotphuc/yas-product
     tag: latest
 
   nameOverride: product

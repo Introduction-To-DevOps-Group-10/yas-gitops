@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-cart
+    repository: phucnotphuc/yas-cart
     tag: latest
 
   nameOverride: cart

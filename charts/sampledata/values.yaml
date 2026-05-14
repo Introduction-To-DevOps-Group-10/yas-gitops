@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-sampledata
+    repository: phucnotphuc/yas-sampledata
     tag: latest
 
   nameOverride: sampledata

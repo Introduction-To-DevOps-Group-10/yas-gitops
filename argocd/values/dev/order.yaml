@@ -1,10 +1,11 @@
 backend:
   image:
-    repository: phucnotphuc/yas-customer
-    tag: 67ad0a5
+    repository: phucnotphuc/yas-order
+    tag: latest
   ingress:
     enabled: true
     host: api-dev.yas.local.com
-    path: /customer
+    path: /order
   serviceMonitor:
     enabled: false
+

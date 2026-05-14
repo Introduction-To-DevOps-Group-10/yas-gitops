@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-webhook
+    repository: phucnotphuc/yas-webhook
     tag: latest
 
   nameOverride: webhook

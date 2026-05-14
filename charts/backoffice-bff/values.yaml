@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-backoffice-bff
+    repository: phucnotphuc/yas-backoffice-bff
     tag: latest
 
   nameOverride: backoffice-bff

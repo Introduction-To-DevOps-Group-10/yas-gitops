@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-customer
+    repository: phucnotphuc/yas-customer
     tag: v1.0.9
   ingress:
     enabled: true

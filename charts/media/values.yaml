@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-media
+    repository: phucnotphuc/yas-media
     tag: latest
 
   nameOverride: media

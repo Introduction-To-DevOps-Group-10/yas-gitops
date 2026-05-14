@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   sources:
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       ref: values
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/yas-configuration
       helm:
@@ -18,7 +18,7 @@ spec:
         valueFiles:
           - $values/argocd/values/staging/yas-configuration.yaml
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/storefront-bff
       helm:
@@ -26,7 +26,7 @@ spec:
         valueFiles:
           - $values/argocd/values/staging/storefront-bff.yaml
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/storefront-ui
       helm:
@@ -34,7 +34,7 @@ spec:
         valueFiles:
           - $values/argocd/values/staging/storefront-ui.yaml
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/cart
       helm:
@@ -42,7 +42,7 @@ spec:
         valueFiles:
           - $values/argocd/values/staging/cart.yaml
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/customer
       helm:
@@ -50,7 +50,7 @@ spec:
         valueFiles:
           - $values/argocd/values/staging/customer.yaml
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/product
       helm:
@@ -58,7 +58,7 @@ spec:
         valueFiles:
           - $values/argocd/values/staging/product.yaml
 
-    - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
       targetRevision: main
       path: charts/tax
       helm:
@@ -67,77 +67,77 @@ spec:
           - $values/argocd/values/staging/tax.yaml
 
     # disabled for lightweight ArgoCD demo
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/swagger-ui
     #   helm:
     #     releaseName: swagger-ui
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/backoffice-bff
     #   helm:
     #     releaseName: backoffice-bff
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/backoffice-ui
     #   helm:
     #     releaseName: backoffice-ui
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/inventory
     #   helm:
     #     releaseName: inventory
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/location
     #   helm:
     #     releaseName: location
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/media
     #   helm:
     #     releaseName: media
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/order
     #   helm:
     #     releaseName: order
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/payment
     #   helm:
     #     releaseName: payment
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/payment-paypal
     #   helm:
     #     releaseName: payment-paypal
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/promotion
     #   helm:
     #     releaseName: promotion
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/rating
     #   helm:
     #     releaseName: rating
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/search
     #   helm:
     #     releaseName: search
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/recommendation
     #   helm:
     #     releaseName: recommendation
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/webhook
     #   helm:
     #     releaseName: webhook
-    # - repoURL: https://github.com/TUNAS106/yas-gitops.git
+    # - repoURL: https://github.com/Introduction-To-DevOps-Group-10/yas-gitops.git
     #   targetRevision: main
     #   path: charts/sampledata
     #   helm:

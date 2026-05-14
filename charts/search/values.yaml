@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-search
+    repository: phucnotphuc/yas-search
     tag: latest
 
   nameOverride: search

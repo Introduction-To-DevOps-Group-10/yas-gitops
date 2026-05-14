@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-recommendation
+    repository: phucnotphuc/yas-recommendation
     tag: latest
 
   nameOverride: recommendation

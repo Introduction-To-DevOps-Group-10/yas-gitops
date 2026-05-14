@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: tunas106/yas-order
+    repository: phucnotphuc/yas-order
     tag: latest
 
   nameOverride: order
