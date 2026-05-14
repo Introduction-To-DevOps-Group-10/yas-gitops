@@ -1,7 +1,7 @@
 backend:
   image:
     repository: phucnotphuc/yas-inventory
-    tag: latest
+    tag: 7f1a76a
   ingress:
     enabled: true
     host: api-dev.yas.local.com

@@ -1,11 +1,10 @@
 backend:
   image:
     repository: phucnotphuc/yas-backoffice-bff
-    tag: latest
+    tag: 7f1a76a
   ingress:
     enabled: true
     host: backoffice-dev.yas.local.com
     path: /
   serviceMonitor:
     enabled: false
-
