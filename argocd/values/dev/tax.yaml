@@ -1,7 +1,7 @@
 backend:
   image:
     repository: phucnotphuc/yas-tax
-    tag: latest
+    tag: 796271d
   ingress:
     enabled: true
     host: api-dev.yas.local.com

@@ -1,7 +1,7 @@
 backend:
   image:
     repository: phucnotphuc/yas-storefront-bff
-    tag: latest
+    tag: 796271d
   ingress:
     host: storefront-dev.yas.local.com
     path: /

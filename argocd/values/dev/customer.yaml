@@ -1,7 +1,7 @@
 backend:
   image:
     repository: phucnotphuc/yas-customer
-    tag: 67ad0a5
+    tag: 796271d
   ingress:
     enabled: true
     host: api-dev.yas.local.com

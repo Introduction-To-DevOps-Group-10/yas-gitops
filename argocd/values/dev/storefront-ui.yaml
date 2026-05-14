@@ -1,7 +1,7 @@
 ui:
   image:
     repository: phucnotphuc/yas-storefront
-    tag: f31c362
+    tag: 796271d
   extraEnvs:
     - name: API_BASE_PATH
       value: http://storefront-dev.yas.local.com/api
